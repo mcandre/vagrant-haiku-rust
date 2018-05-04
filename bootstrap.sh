@@ -1,2 +1,3 @@
 #!/bin/sh
-installoptionalpackage -a rust
+pkgman refresh &&
+    pkgman install -y rust
